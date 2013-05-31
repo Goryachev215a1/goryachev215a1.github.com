@@ -56,3 +56,25 @@ menu    {
     text-align: center;
     padding-left: 45px;
 }
+.items li {
+    float: left;
+    margin:0 5px;
+    display: block;
+}
+
+.items li a {
+    float: left;
+    display: block;
+    color:#fafafa;
+    padding:5px 10px;
+    text-decoration: none;
+}
+
+.items li a:hover {
+    float: left;
+    display: block;
+    color:#fff;
+    border-bottom:1px solid #fff;
+    padding:4px 10px;
+    text-decoration: none;
+}
