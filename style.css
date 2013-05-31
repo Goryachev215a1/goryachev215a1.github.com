@@ -1,10 +1,20 @@
-.content {
-  background-color:rgba(255, 255,255, 0.9);
-  margin:0 auto;
-  margin-bottom: 15px;
-  padding: 5px 15px;
-  display:block;
-  border-radius:8px;
-  -webkit-border-radius:8px;
-  -moz-border-radius:8px;
+body{
+  background-image:url(http://s020.radikal.ru/i716/1304/f0/72e776585cc4.jpg);
+}
+
+a {
+  text-decoration:none;
+	color:#4169e1;
+	font-weight: bold;         
+	font-family: arial;
+}
+
+a:hover {
+  color:#1b1b1b;
+}
+h1, h2, h3, h4, h5, h6, a.post_ttl {
+	color:#505050;
+	text-decoration:none;
+	font-weight: bold;         
+	font-family: arial;
 }
