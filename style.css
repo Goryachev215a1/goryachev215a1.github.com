@@ -46,3 +46,8 @@ menu    {
     -webkit-border-radius:8px;
     -moz-border-radius:8px;
 }
+main_content {
+    display:block;
+    margin: 10px 0px;
+    padding:6px;
+}
