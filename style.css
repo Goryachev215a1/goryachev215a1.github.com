@@ -3,18 +3,27 @@ body{
 }
 
 a {
-  text-decoration:none;
+  	text-decoration:none;
 	color:#4169e1;
 	font-weight: bold;         
 	font-family: arial;
 }
 
 a:hover {
-  color:#1b1b1b;
+  	color:#1b1b1b;
 }
 h1, h2, h3, h4, h5, h6, a.post_ttl {
 	color:#505050;
 	text-decoration:none;
 	font-weight: bold;         
 	font-family: arial;
+}
+
+menu{
+	width:63.5%;
+	height:70 px; 
+	border:0;
+	background:url('http://img.tatfisher.ru/images/1znz.png'); 
+	background-repeat: no-repeat; 
+	background-align: center; 
 }
