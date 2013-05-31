@@ -9,7 +9,7 @@ a {
   	text-decoration:none;
 	color:#4169e1;
 	font-weight: bold;         
-	font-family: arial;
+	font-family: 'Denk One', sans-serif;
 }
 
 a:hover {
@@ -19,7 +19,7 @@ h1, h2, h3, h4, h5, h6, a.post_ttl {
 	color:#505050;
 	text-decoration:none;
 	font-weight: bold;         
-	font-family: arial;
+	font-family: 'Denk One', sans-serif;
 }
 
 menu    {
