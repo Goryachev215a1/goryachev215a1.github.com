@@ -28,3 +28,8 @@ menu{
 	background-repeat: no-repeat; 
 	background-align: center; 
 }
+
+#page_wrap{
+	width: 1024px;
+	margin: 0px auto 0px;
+}
