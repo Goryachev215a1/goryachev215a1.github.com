@@ -30,6 +30,11 @@ menu    {
 	background-repeat: no-repeat; 
 	background-align: center; 
 }
+.container {
+    margin:0 auto;
+    width:1280px;
+    display:block;
+}
 
 #page_wrap{
 	width: 1280px;
