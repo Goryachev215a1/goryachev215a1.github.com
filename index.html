@@ -5,9 +5,28 @@
 <link href="style.css" rel="stylesheet" type="text/css" />
 <link rel="stylesheet" type="text/css"
          href="responsive-gs-12col.css"/>
-         <link href='http://fonts.googleapis.com/css?family=Denk+One' rel='stylesheet' type='text/css'>
+ <link href='http://fonts.googleapis.com/css?family=Denk+One' rel='stylesheet' type='text/css'>
+
+
+
+<script type="text/javascript">
+  function digitalWatch() {
+    var date = new Date();
+    var hours = date.getHours();
+    var minutes = date.getMinutes();
+    var seconds = date.getSeconds();
+    if (hours < 10) hours = "0" + hours;
+    if (minutes < 10) minutes = "0" + minutes;
+    if (seconds < 10) seconds = "0" + seconds;
+    document.getElementById("digital_watch").innerHTML = hours + ":" + minutes + ":" + seconds;
+    setTimeout("digitalWatch()", 1000);
+  }
+</script>
+
+
 </head>
-<body>
+
+<body onload="digitalWatch()">
 <div id="page_wrap" class="container">
 	<div class="row">
 		<table>
@@ -67,6 +86,10 @@
 <br>
 <br>
 <br>
+<div class="row">
+<p id="digital_watch" style="color: #f00; font-size: 120%; font-weight: bold;"></p>
+</div>
+
 <div class="row">
          <div class="col span_3">
          <img src="http://img.tatfisher.ru/images/1sks.png" >
